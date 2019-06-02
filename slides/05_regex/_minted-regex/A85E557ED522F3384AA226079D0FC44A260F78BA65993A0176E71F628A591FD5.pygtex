@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{c+c1}{\PYGdefaultZsh{} match comma, semicolon or hyphen before a linebreak}
+\PYGdefault{l+s+sa}{r}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}[,;\PYGdefaultZhy{}]\PYGdefaultZbs{}n\PYGdefaultZdq{}}
+\end{Verbatim}

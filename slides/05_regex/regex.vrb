@@ -1,0 +1,16 @@
+\frametitle{The Final Trick: Backreferences}
+\begin{itemize}
+        \item The brackets \texttt{(} and \texttt{)} also define groups.
+        \item For example, the \textbf{backreference} \texttt{$\backslash$2} refers to the 2nd group.
+    \end{itemize}
+
+\begin{pythoncode}
+    # convert dates from month/day/full_year to full_year-month-day
+    re.sub(r"(\w+)/(\d{,2})/(\d{4})",
+           r"\3-\1-\2",
+           string)
+\end{pythoncode}
+
+    \begin{itemize}
+        \item Backreferences allow chatbots to reuse parts of the user input.
+    \end{itemize}

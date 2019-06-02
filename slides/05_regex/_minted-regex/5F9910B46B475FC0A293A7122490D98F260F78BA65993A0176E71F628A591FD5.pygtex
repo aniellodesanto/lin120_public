@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{c+c1}{\PYGdefaultZsh{} a regex for matching any word or variable name}
+\PYGdefault{l+s+sa}{r}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}[A\PYGdefaultZhy{}Za\PYGdefaultZhy{}z0\PYGdefaultZhy{}9\PYGdefaultZus{}]+\PYGdefaultZdq{}}
+\end{Verbatim}

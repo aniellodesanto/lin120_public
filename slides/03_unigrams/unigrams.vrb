@@ -1,0 +1,84 @@
+\frametitle{Methodology in Detail}
+\begin{enumerate}
+        \item<1-> collect books from Project Gutenberg
+        \item<2-> annotate them as (un)successful\\
+            \subpoint{mixture of financial turnout and critical evaluation}
+        \item<3-> split annotated books into two groups\\
+            \begin{itemize}
+                \item \textbf{Training set}\\
+                    used to train the model\slash learn frequencies\\
+                \item \textbf{Test set}\\
+                    used to test quality of the trained model
+            \end{itemize}
+        \item<4-> determine unigram frequencies in training set and\\
+            establish statistical correlation to success of books
+        \item<5-> get predictions of model for books in test set
+        \item<6-> compare predictions to actual success\slash failure
+    \end{enumerate}
+    %
+    \begin{tikzpicture}[
+        overlay,
+        group/.style = {circle, thick, font=\bfseries,
+                        draw=#1, fill=#1!25,
+                        minimum size=6em}
+        ]
+        \node (books) [group={SteelBlue4}, visible on=<1>]
+            at (26em,10em) {Books};
+
+        % success
+        \begin{scope}[yshift=-5em]
+            \clip (22em,10em) rectangle (25.6em,18.5em);
+            \node (success) [group={SeaGreen4}, visible on=<2>,
+                             rotate=90, align=center]
+                at (25.5em,15em) {Success\\ \\};
+
+        \end{scope}
+
+        % failure
+        \begin{scope}[yshift=-5em]
+            \clip (26.5em,10em) rectangle (30.1em,18.5em);
+            \node (failure) [group={Red3}, visible on=<2>,
+                             rotate=90, align=center]
+                at (26.5em,15em) {\\ \\Failure};
+        \end{scope}
+
+        % training
+        \begin{scope}
+            % success
+            \begin{scope}[yshift=-5em]
+                \clip (22em,15.1em) rectangle (25.6em,18.5em);
+                \node (success) [group={SeaGreen4}, visible on=<3->,
+                                 rotate=90, align=center]
+                    at (25.5em,15em) {Success\\ \\};
+
+            \end{scope}
+
+            % failure
+            \begin{scope}[yshift=-5em]
+                \clip (26.5em,15.1em) rectangle (30.1em,18.5em);
+                \node (failure) [group={Red3}, visible on=<3->,
+                                 rotate=90, align=center]
+                    at (26.5em,15em) {\\ \\Failure};
+            \end{scope}
+        \end{scope}
+
+        % test
+        \begin{scope}
+            % success
+            \begin{scope}[yshift=-5em]
+                \clip (22em,14.1em) rectangle (25.6em,10.5em);
+                \node (success) [group={SeaGreen4}, visible on=<3->,
+                                 rotate=90, align=center]
+                    at (25.5em,14em) {Success\\ \\};
+
+            \end{scope}
+
+            % failure
+            \begin{scope}[yshift=-5em]
+                \clip (26.5em,14.1em) rectangle (30.1em,10.5em);
+                \node (failure) [group={Red3}, visible on=<3->,
+                                 rotate=90, align=center]
+                    at (26.5em,14em) {\\ \\Failure};
+            \end{scope}
+        \end{scope}
+    \end{tikzpicture}

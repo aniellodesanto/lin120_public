@@ -1,0 +1,494 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Previously} \PYGdefault{n}{on} \PYGdefault{l+s+sb}{``}\PYGdefault{n}{Language} \PYGdefaultZbs{}\PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{Technology}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}\PYGdefaultZsq{}}\PYGdefaultZbs{}\PYGdefault{n}{ldots}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Steps} \PYGdefault{n}{of} \PYGdefault{n}{Word} \PYGdefault{n}{Counting} \PYGdefault{n}{Model}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n+nb}{enumerate}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{collect} \PYGdefault{n}{corpus}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{tokenize} \PYGdefault{n}{strings}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{count} \PYGdefault{n}{tokens} \PYGdefault{k}{for} \PYGdefault{n}{each} \PYGdefault{n+nb}{type}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n+nb}{enumerate}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{pause}
+\PYGdefault{n}{Counting} \PYGdefault{n}{words} \PYGdefault{o+ow}{is} \PYGdefault{n}{surprisingly} \PYGdefault{n}{useful}\PYGdefault{p}{:}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Culturomics}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Stylistic} \PYGdefault{n}{analysis}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefault{n}{But} \PYGdefault{n}{there}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s more!}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Application} \PYGdefault{l+m+mi}{3}\PYGdefault{p}{:} \PYGdefault{n}{Authorship} \PYGdefault{n}{Attribution}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Computational} \PYGdefault{n}{stylistic} \PYGdefault{n}{analysis} \PYGdefault{n}{isn}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}t just good at}\PYGdefault{l+s+se}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+        \PYGdefault{n}{predicting} \PYGdefault{n}{success} \PYGdefault{n}{of} \PYGdefault{n}{novels}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Word} \PYGdefault{n}{counts} \PYGdefault{n}{pick} \PYGdefault{n}{up} \PYGdefault{n}{on} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{statistical} \PYGdefault{n}{tendencies} \PYGdefault{o+ow}{in} \PYGdefault{n}{writing}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{n}{of} \PYGdefault{n}{individual} \PYGdefault{n}{authors}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{This} \PYGdefault{n}{means} \PYGdefault{n}{that} \PYGdefault{n}{potential} \PYGdefault{n}{authors} \PYGdefault{n}{can} \PYGdefault{n}{be} \PYGdefault{n}{inferred} \PYGdefault{n}{from}\PYGdefaultZbs{}\PYGdefaultZbs{}
+         \PYGdefault{n}{word} \PYGdefault{n}{frequencies}\PYGdefault{err}{!}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Example}\PYGdefault{p}{:} \PYGdefault{n}{Auditing} \PYGdefault{n}{the} \PYGdefault{n}{Bard}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Oeuvre\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{7}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Several} \PYGdefault{n}{works} \PYGdefault{n}{of} \PYGdefault{n}{Shakespeare} \PYGdefault{n}{have} \PYGdefault{n}{supposedly} \PYGdefault{n}{been} \PYGdefault{p}{(}\PYGdefault{n}{partially}\PYGdefault{p}{)} \PYGdefault{n}{authored} \PYGdefault{n}{by} \PYGdefault{n}{somebody} \PYGdefault{k}{else}\PYGdefault{p}{:}
+            \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+                \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Edward} \PYGdefault{n}{III}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefault{n}{co}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{authored} \PYGdefault{k}{with} \PYGdefault{n}{Thomas} \PYGdefault{n}{Kyd}
+                \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{The} \PYGdefault{n}{Comedy} \PYGdefault{n}{of} \PYGdefault{n}{Errors}\PYGdefault{p}{\PYGdefaultZcb{},}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Love}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Labour Lost\PYGdefaultZcb{},}\PYGdefault{l+s+se}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+                    \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{The} \PYGdefault{n}{Tempest}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefault{n}{co}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{authored} \PYGdefault{k}{with} \PYGdefault{n}{Francis} \PYGdefault{n}{Bacon}
+            \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{These} \PYGdefault{n}{are} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{fringe} \PYGdefault{n}{ideas}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{o+ow}{in} \PYGdefault{n}{literary} \PYGdefault{n}{circles}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{But} \PYGdefault{n}{there} \PYGdefault{n}{are} \PYGdefault{n}{word} \PYGdefault{n}{counting} \PYGdefault{n}{models} \PYGdefault{n}{that} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{support} \PYGdefault{n}{these} \PYGdefault{n}{claims}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{3}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{shakespeare}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Another} \PYGdefault{n}{Example}\PYGdefault{p}{:} \PYGdefault{n}{Harry} \PYGdefault{n}{Potter}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Mum\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{6}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{New} \PYGdefault{n}{book}\PYGdefault{p}{:} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{The} \PYGdefault{n}{Cuckoo}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Calling\PYGdefaultZcb{} by Robert Galbraith}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Sunday} \PYGdefault{n}{Times}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{n}{suspects} \PYGdefault{n}{it} \PYGdefault{o+ow}{is} \PYGdefault{n}{written} \PYGdefault{n}{by} \PYGdefault{n}{J}\PYGdefault{o}{.\PYGdefaultZti{}}\PYGdefault{n}{K}\PYGdefault{o}{.\PYGdefaultZti{}}\PYGdefault{n}{Rowling}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Evidence} \PYGdefault{k+kn}{from} \PYGdefault{n+nn}{word}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{based} \PYGdefault{n}{model}\PYGdefault{p}{:}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{l+m+mi}{100} \PYGdefault{n}{most} \PYGdefault{n}{common} \PYGdefault{n}{words}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{average} \PYGdefault{n}{word} \PYGdefault{n}{length}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{word} \PYGdefault{n}{pairs}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefaultZbs{}\PYGdefault{n}{subpoint}\PYGdefault{p}{\PYGdefaultZob{}(}\PYGdefault{n}{discussed} \PYGdefault{o+ow}{in} \PYGdefault{n+nb}{next} \PYGdefault{n}{lecture}\PYGdefault{p}{)\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{character} \PYGdefault{l+m+mi}{4}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{grams}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefaultZbs{}\PYGdefault{n}{subpoint}\PYGdefault{p}{\PYGdefaultZob{}(}\PYGdefault{n}{discussed} \PYGdefault{o+ow}{in} \PYGdefault{n+nb}{next} \PYGdefault{n}{lecture}\PYGdefault{p}{)\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{33}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{centering}
+    \PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{jkrowling}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{followup}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefault{n}{Article} \PYGdefault{n}{on} \PYGdefaultZbs{}\PYGdefault{n}{href}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{http}\PYGdefault{p}{:}\PYGdefault{o}{//}\PYGdefault{n}{languagelog}\PYGdefault{o}{.}\PYGdefault{n}{ldc}\PYGdefault{o}{.}\PYGdefault{n}{upenn}\PYGdefault{o}{.}\PYGdefault{n}{edu}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{LanguageLog}\PYGdefault{p}{\PYGdefaultZcb{}:} \PYGdefaultZbs{}\PYGdefault{n}{url}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{http}\PYGdefault{p}{:}\PYGdefault{o}{//}\PYGdefault{n}{languagelog}\PYGdefault{o}{.}\PYGdefault{n}{ldc}\PYGdefault{o}{.}\PYGdefault{n}{upenn}\PYGdefault{o}{.}\PYGdefault{n}{edu}\PYGdefault{o}{/}\PYGdefault{n}{nll}\PYGdefault{o}{/}\PYGdefault{err}{?}\PYGdefault{n}{p}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{5315}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{followup}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Evaluation}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{As} \PYGdefault{k}{with} \PYGdefault{n}{culturomics}\PYGdefault{p}{,} \PYGdefault{n}{it} \PYGdefault{o+ow}{is} \PYGdefault{n}{unclear} \PYGdefault{n}{what} \PYGdefault{n}{to} \PYGdefault{n}{make} \PYGdefault{n}{of}\PYGdefaultZbs{}\PYGdefaultZbs{}
+        \PYGdefault{n}{the} \PYGdefault{n}{findings}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{J}\PYGdefault{o}{.}\PYGdefault{n}{K}\PYGdefault{o}{.} \PYGdefault{n}{Rowling}\PYGdefault{p}{:} \PYGdefault{n}{success}\PYGdefault{err}{!}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Shakespeare}\PYGdefault{p}{:} \PYGdefault{n}{success}\PYGdefault{err}{?}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{One} \PYGdefault{n}{can} \PYGdefault{n}{get} \PYGdefault{n}{vastly} \PYGdefault{n}{different} \PYGdefault{n}{results} \PYGdefault{n}{depending} \PYGdefault{n}{on}\PYGdefault{p}{:}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{absolute} \PYGdefault{n}{size} \PYGdefault{n}{of} \PYGdefault{n}{test} \PYGdefault{n}{corpus}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{relative} \PYGdefault{n}{size} \PYGdefault{p}{(}\PYGdefault{n}{e}\PYGdefault{o}{.}\PYGdefault{n}{g}\PYGdefault{o}{.}\PYGdefaultZbs{} \PYGdefault{n}{ratio} \PYGdefault{n}{of} \PYGdefault{n}{Shakespeare} \PYGdefault{n}{to} \PYGdefault{n}{Bacon}\PYGdefault{p}{)}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{whether} \PYGdefault{n}{certain} \PYGdefault{n}{words} \PYGdefault{n}{are} \PYGdefault{n}{ignored}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{whether} \PYGdefault{n}{one} \PYGdefault{n}{pays} \PYGdefault{n}{attention} \PYGdefault{n}{to} \PYGdefault{n}{rare} \PYGdefault{n}{words} \PYGdefault{o+ow}{or} \PYGdefault{n}{frequent} \PYGdefault{n}{words}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Many} \PYGdefault{n}{of} \PYGdefault{n}{these} \PYGdefault{n}{studies} \PYGdefault{n}{feel} \PYGdefault{n}{backwards}\PYGdefault{p}{:}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{They} \PYGdefault{n}{start} \PYGdefault{k}{with} \PYGdefault{n}{a} \PYGdefault{n}{specific} \PYGdefault{n}{hypothesis} \PYGdefault{o+ow}{and} \PYGdefault{n}{then} \PYGdefault{n}{present}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{one} \PYGdefault{n}{specific} \PYGdefault{n}{model} \PYGdefault{n}{that} \PYGdefault{n}{supports} \PYGdefault{n}{this} \PYGdefault{n}{hypothesis}\PYGdefault{o}{.}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{But} \PYGdefault{n}{why} \PYGdefault{o+ow}{is} \PYGdefault{n}{this} \PYGdefault{n}{model} \PYGdefault{n}{better} \PYGdefault{n}{than} \PYGdefault{n+nb}{all} \PYGdefault{n}{of} \PYGdefault{n}{the} \PYGdefault{n}{alternatives}\PYGdefault{err}{?}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Moral} \PYGdefault{n}{of} \PYGdefault{n}{the} \PYGdefault{n}{Story}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Authorship} \PYGdefault{n}{attribution} \PYGdefault{n}{models} \PYGdefault{n}{still} \PYGdefault{n}{ill}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{understood}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{In} \PYGdefault{n}{the} \PYGdefault{n}{future}\PYGdefault{p}{,} \PYGdefault{n}{these} \PYGdefault{n}{models} \PYGdefault{n}{might} \PYGdefault{n}{answer} \PYGdefault{n+nb}{long}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{standing} \PYGdefault{n}{questions} \PYGdefault{o+ow}{or} \PYGdefault{n}{pose} \PYGdefault{n}{new} \PYGdefault{n}{ones}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Maybe} \PYGdefault{n}{you} \PYGdefault{n}{can} \PYGdefault{k}{try} \PYGdefault{n}{it} \PYGdefault{o+ow}{in} \PYGdefault{n}{an} \PYGdefault{n}{English} \PYGdefault{n}{class}\PYGdefault{o}{.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Application} \PYGdefault{l+m+mi}{4}\PYGdefault{p}{:} \PYGdefault{n}{Word} \PYGdefault{n}{Meanings}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{For} \PYGdefault{n}{some} \PYGdefault{n}{tasks}\PYGdefault{p}{,} \PYGdefault{n}{the} \PYGdefault{n}{word} \PYGdefault{n}{types} \PYGdefault{n}{are} \PYGdefault{o+ow}{not} \PYGdefault{n}{that} \PYGdefault{n}{important}\PYGdefault{p}{,}\PYGdefaultZbs{}\PYGdefaultZbs{}
+        \PYGdefault{n}{what} \PYGdefault{n}{matters} \PYGdefault{o+ow}{is} \PYGdefault{n}{their} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{meaning}\PYGdefault{p}{\PYGdefaultZcb{}:}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{web} \PYGdefault{n}{search}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Google} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Ad} \PYGdefault{n}{Sense}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{n}{automatic} \PYGdefault{n}{ad} \PYGdefault{n}{placement}\PYGdefault{p}{)}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{But} \PYGdefault{n}{what} \PYGdefault{o+ow}{is} \PYGdefault{n}{a} \PYGdefault{n}{word} \PYGdefault{n}{meaning}\PYGdefault{err}{?}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exampleblock}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Example}\PYGdefault{p}{:} \PYGdefault{n}{Dictionary} \PYGdefault{n}{Approach}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{dog}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{o+ow}{is} \PYGdefault{n}{a} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{mammal}\PYGdefault{p}{\PYGdefaultZcb{},}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{descended} \PYGdefault{k+kn}{from} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{wolf}\PYGdefault{p}{\PYGdefaultZcb{},}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{o+ow}{is} \PYGdefault{n}{commonly} \PYGdefault{n}{a} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{pet}\PYGdefault{p}{\PYGdefaultZcb{},}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{subtypes} \PYGdefault{n}{are} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{poodle}\PYGdefault{p}{\PYGdefaultZcb{},} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{bulldog}\PYGdefault{p}{\PYGdefaultZcb{},} \PYGdefaultZbs{}\PYGdefault{n}{ldots}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{has} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{fur}\PYGdefault{p}{\PYGdefaultZcb{},}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{ldots}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exampleblock}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}} \PYGdefault{n}{fixme}\PYGdefault{p}{:} \PYGdefault{n}{use} \PYGdefault{n}{wordnet} \PYGdefault{n}{here}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Why} \PYGdefault{n}{the} \PYGdefault{n}{Dictionary} \PYGdefault{n}{Approach} \PYGdefault{o+ow}{is} \PYGdefault{n}{Problematic}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Such} \PYGdefault{n}{dictionaries} \PYGdefault{n}{have} \PYGdefault{n}{been} \PYGdefault{n}{tried} \PYGdefault{k}{for} \PYGdefault{n}{computers}\PYGdefault{o}{.}\PYGdefaultZbs{}\PYGdefaultZbs{}
+        \PYGdefaultZbs{}\PYGdefault{n}{subpoint}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{e}\PYGdefault{o}{.}\PYGdefault{n}{g}\PYGdefault{o}{.} \PYGdefault{n}{WordNet}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{They} \PYGdefault{n}{must} \PYGdefault{n}{be} \PYGdefault{n}{created} \PYGdefault{n}{by} \PYGdefault{n}{hand}\PYGdefault{p}{,} \PYGdefault{n}{which} \PYGdefault{o+ow}{is} \PYGdefault{n}{a} \PYGdefault{n}{big} \PYGdefault{n}{problem}\PYGdefault{p}{:}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{expensive}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{only} \PYGdefault{n}{available} \PYGdefault{k}{for} \PYGdefault{n}{some} \PYGdefault{n}{languages}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{many} \PYGdefault{n}{new} \PYGdefault{n}{words} \PYGdefault{n}{missing}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{We} \PYGdefault{n}{need} \PYGdefault{n}{dictionaries} \PYGdefault{n}{that} \PYGdefault{n}{can} \PYGdefault{n}{be} \PYGdefault{n}{generated} \PYGdefault{n}{automatically}\PYGdefault{o}{.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Meaning} \PYGdefault{k}{as} \PYGdefault{n}{Word} \PYGdefault{n}{Use}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{7}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{The} \PYGdefault{n}{philosopher} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Ludwig} \PYGdefault{n}{Wittgenstein}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{n}{said} \PYGdefault{n}{that} \PYGdefault{n}{a} \PYGdefault{n}{word}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s meaning is its use.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Computational} \PYGdefault{n}{Counterpart}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefault{n}{A} \PYGdefault{n}{word}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s meaning is given by how often it occurs together with other words.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{3}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{centering}
+    \PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{wittgenstein}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Counting} \PYGdefault{n}{Tokens} \PYGdefault{k}{for} \PYGdefault{n}{Word} \PYGdefault{n}{Meaning}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Step} \PYGdefault{l+m+mi}{1}\PYGdefault{p}{:\PYGdefaultZcb{}} \PYGdefault{n}{Record} \PYGdefault{o+ow}{in} \PYGdefault{n}{how} \PYGdefault{n}{many} \PYGdefault{n}{sentences} \PYGdefault{n}{words} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{occur} \PYGdefault{n}{together}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{example}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{quote}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefault{n}{The} \PYGdefault{n}{dog} \PYGdefault{n}{barked} \PYGdefault{n}{at} \PYGdefault{n}{the} \PYGdefault{n}{cat}\PYGdefault{o}{.}
+        \PYGdefault{n}{The} \PYGdefault{n}{cat} \PYGdefault{n}{ran} \PYGdefault{n}{away}\PYGdefault{o}{.}
+        \PYGdefault{n}{The} \PYGdefault{n}{dog} \PYGdefault{n}{ran} \PYGdefault{n}{after} \PYGdefault{n}{the} \PYGdefault{n}{cat}\PYGdefault{o}{.}
+        \PYGdefault{n}{The} \PYGdefault{n}{dog} \PYGdefault{n}{kept} \PYGdefault{n}{barking}\PYGdefault{o}{.}
+        \PYGdefault{n}{He} \PYGdefault{n}{also} \PYGdefault{n}{kept} \PYGdefault{n}{running}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{quote}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefault{o}{\PYGdefaultZpc{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{centering}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tabular}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{r}\PYGdefault{o}{|}\PYGdefault{n}{cccc}\PYGdefault{p}{\PYGdefaultZcb{}}
+                       \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{dog} \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{cat} \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{bark} \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{run}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefaultZbs{}\PYGdefault{n}{hline}
+                \PYGdefault{n}{dog}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{4}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{cat}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{5}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{6}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{7}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{bark}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{8}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{9}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{10}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{run}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{11}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{12}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{13}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{\PYGdefaultZcb{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tabular}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{example}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{From} \PYGdefault{n}{Vector} \PYGdefault{n}{to} \PYGdefault{n}{Vector} \PYGdefault{n}{Spaces}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Step} \PYGdefault{l+m+mi}{2}\PYGdefault{p}{:\PYGdefaultZcb{}} \PYGdefault{n}{Construct} \PYGdefault{n}{an} \PYGdefault{err}{\PYGdefaultZdl{}}\PYGdefault{n}{n}\PYGdefault{err}{\PYGdefaultZdl{}}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{dimensional} \PYGdefault{n}{vector} \PYGdefault{n}{space}\PYGdefault{o}{.}\PYGdefaultZbs{}\PYGdefaultZbs{}
+\PYGdefaultZbs{}\PYGdefault{n}{subpoint}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{qquad}\PYGdefaultZbs{}\PYGdefault{n}{qquad} \PYGdefault{err}{\PYGdefaultZdl{}}\PYGdefault{n}{n}\PYGdefault{err}{\PYGdefaultZdl{}} \PYGdefault{o+ow}{is} \PYGdefault{n}{given} \PYGdefault{n}{by} \PYGdefault{n}{the} \PYGdefault{n}{number} \PYGdefault{n}{of} \PYGdefault{n}{word} \PYGdefault{n}{types} \PYGdefault{o+ow}{in} \PYGdefault{n}{the} \PYGdefault{n}{text}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exampleblock}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{Dimensional} \PYGdefault{n}{Vector} \PYGdefault{n}{Space} \PYGdefault{k}{with} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{dog}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{o+ow}{and} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{cat}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}
+    \PYGdefault{o}{\PYGdefaultZpc{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{3}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{centering}
+            \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tikzpicture}\PYGdefault{p}{\PYGdefaultZcb{}}
+                \PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{top}\PYGdefault{p}{)} \PYGdefault{n}{at} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{0}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{10}\PYGdefault{n}{em}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}\PYGdefaultZcb{};}
+                \PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{p}{)} \PYGdefault{n}{at} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}\PYGdefaultZcb{};}
+                \PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{right}\PYGdefault{p}{)} \PYGdefault{n}{at} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{10}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{0}\PYGdefault{n}{em}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}\PYGdefaultZcb{};}
+
+                \PYGdefaultZbs{}\PYGdefault{n}{foreach} \PYGdefaultZbs{}\PYGdefault{n}{x} \PYGdefault{o+ow}{in} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{4}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{8}\PYGdefault{n}{em}\PYGdefault{p}{\PYGdefaultZcb{}}
+                    \PYGdefault{p}{\PYGdefaultZob{}}
+                    \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{,} \PYGdefault{o}{.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{)} \PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZhy{}} \PYGdefault{p}{(}\PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{,} \PYGdefault{o}{\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{);}
+                    \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{,} \PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{)} \PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZhy{}} \PYGdefault{p}{(}\PYGdefault{o}{\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{,} \PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{);}
+                    \PYGdefault{p}{\PYGdefaultZcb{}}
+
+                \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{above}\PYGdefault{p}{,}\PYGdefault{n}{pos}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{dog}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{n}{top}\PYGdefault{p}{);}
+                \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{right}\PYGdefault{p}{,}\PYGdefault{n}{pos}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{cat}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{n}{right}\PYGdefault{p}{);}
+
+                \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{SteelBlue4}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{left}\PYGdefault{p}{,} \PYGdefault{n}{pos}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{bark}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{4}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{8}\PYGdefault{n}{em}\PYGdefault{p}{);}
+                \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{Red3}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{below}\PYGdefault{p}{,} \PYGdefault{n}{pos}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{run}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{8}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{4}\PYGdefault{n}{em}\PYGdefault{p}{);}
+            \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tikzpicture}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+        \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{55}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{center}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tabular}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{r}\PYGdefault{o}{|}\PYGdefault{n}{cccc}\PYGdefault{p}{\PYGdefaultZcb{}}
+                           \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{dog} \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{cat} \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{bark} \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{n}{run}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefaultZbs{}\PYGdefault{n}{hline}
+                    \PYGdefault{n}{dog}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefault{n}{cat}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefault{n}{bark}   \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{tikz}\PYGdefault{p}{[}\PYGdefault{n}{overlay}\PYGdefault{p}{,}\PYGdefault{n}{remember} \PYGdefault{n}{picture}\PYGdefault{p}{,} \PYGdefault{n}{baseline}\PYGdefault{o}{=\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{7}\PYGdefault{n}{ex}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{bd}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{};\PYGdefaultZcb{}}
+                           \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{tikz}\PYGdefault{p}{[}\PYGdefault{n}{overlay}\PYGdefault{p}{,}\PYGdefault{n}{remember} \PYGdefault{n}{picture}\PYGdefault{p}{,} \PYGdefault{n}{baseline}\PYGdefault{o}{=\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{7}\PYGdefault{n}{ex}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{bc}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{};\PYGdefaultZcb{}}
+                           \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                    \PYGdefault{n}{run}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{tikz}\PYGdefault{p}{[}\PYGdefault{n}{overlay}\PYGdefault{p}{,}\PYGdefault{n}{remember} \PYGdefault{n}{picture}\PYGdefault{p}{,} \PYGdefault{n}{baseline}\PYGdefault{o}{=\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{7}\PYGdefault{n}{ex}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{rd}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{\PYGdefaultZcb{};\PYGdefaultZcb{}}
+                           \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefaultZbs{}\PYGdefault{n}{tikz}\PYGdefault{p}{[}\PYGdefault{n}{overlay}\PYGdefault{p}{,}\PYGdefault{n}{remember} \PYGdefault{n}{picture}\PYGdefault{p}{,} \PYGdefault{n}{baseline}\PYGdefault{o}{=\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{7}\PYGdefault{n}{ex}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{rc}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{};\PYGdefaultZcb{}}
+                           \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{\PYGdefaultZcb{}}    \PYGdefault{o}{\PYGdefaultZam{}} \PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefaultZbs{}\PYGdefaultZbs{}
+            \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tabular}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tikzpicture}\PYGdefault{p}{\PYGdefaultZcb{}[}\PYGdefault{n}{overlay}\PYGdefault{p}{,} \PYGdefault{n}{remember} \PYGdefault{n}{picture}\PYGdefault{p}{]}
+                \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{n}{draw}\PYGdefault{o}{=}\PYGdefault{n}{Purple}\PYGdefault{p}{,} \PYGdefault{n}{fill}\PYGdefault{o}{=}\PYGdefault{n}{Purple}\PYGdefault{p}{,} \PYGdefault{n}{thick}\PYGdefault{p}{,} \PYGdefault{n}{fill} \PYGdefault{n}{opacity}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{25}\PYGdefault{p}{]}
+                    \PYGdefault{p}{(}\PYGdefault{n}{bd}\PYGdefault{o}{.}\PYGdefault{n}{north} \PYGdefault{n}{west}\PYGdefault{p}{)} \PYGdefault{n}{rectangle} \PYGdefault{p}{(}\PYGdefault{n}{rc}\PYGdefault{o}{.}\PYGdefault{n}{south} \PYGdefault{n}{east}\PYGdefault{p}{);}
+            \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tikzpicture}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{center}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{bark}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{n}{more} \PYGdefault{n}{closely} \PYGdefault{n}{related} \PYGdefault{n}{to} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{dog}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{run}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{n}{more} \PYGdefault{n}{closely} \PYGdefault{n}{related} \PYGdefault{n}{to} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{cat}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exampleblock}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{From} \PYGdefault{n}{Word} \PYGdefault{n}{Meaning} \PYGdefault{n}{to} \PYGdefault{n}{Text} \PYGdefault{n}{Meaning}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Step} \PYGdefault{l+m+mi}{3}\PYGdefault{p}{\PYGdefaultZcb{}:} \PYGdefault{n}{construct} \PYGdefault{n}{vector} \PYGdefault{k}{for} \PYGdefault{n}{whole} \PYGdefault{n}{text} \PYGdefault{k+kn}{from} \PYGdefault{n+nn}{word} \PYGdefault{n+nn}{vectors}
+
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exampleblock}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Meaning} \PYGdefault{k}{for} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{He} \PYGdefault{n}{either} \PYGdefault{n}{barks} \PYGdefault{o+ow}{or} \PYGdefault{n}{runs} \PYGdefault{o+ow}{and} \PYGdefault{n}{barks}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{centering}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tikzpicture}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{top}\PYGdefault{p}{)} \PYGdefault{n}{at} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{0}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{10}\PYGdefault{n}{em}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}\PYGdefaultZcb{};}
+        \PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{p}{)} \PYGdefault{n}{at} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}\PYGdefaultZcb{};}
+        \PYGdefaultZbs{}\PYGdefault{n}{node} \PYGdefault{p}{(}\PYGdefault{n}{right}\PYGdefault{p}{)} \PYGdefault{n}{at} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{10}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{0}\PYGdefault{n}{em}\PYGdefault{p}{)} \PYGdefault{p}{\PYGdefaultZob{}\PYGdefaultZcb{};}
+
+        \PYGdefaultZbs{}\PYGdefault{n}{foreach} \PYGdefaultZbs{}\PYGdefault{n}{x} \PYGdefault{o+ow}{in} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{4}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{8}\PYGdefault{n}{em}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefault{p}{\PYGdefaultZob{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{,} \PYGdefault{o}{.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{)} \PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZhy{}} \PYGdefault{p}{(}\PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{,} \PYGdefault{o}{\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{);}
+            \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{,} \PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{)} \PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZhy{}} \PYGdefault{p}{(}\PYGdefault{o}{\PYGdefaultZhy{}.}\PYGdefault{l+m+mi}{25}\PYGdefault{n}{em}\PYGdefault{p}{,} \PYGdefaultZbs{}\PYGdefault{n}{x}\PYGdefault{p}{);}
+            \PYGdefault{p}{\PYGdefaultZcb{}}
+
+        \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{above}\PYGdefault{p}{,}\PYGdefault{n}{pos}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{dog}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{n}{top}\PYGdefault{p}{);}
+        \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{gray}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{right}\PYGdefault{p}{,}\PYGdefault{n}{pos}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{cat}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{n}{right}\PYGdefault{p}{);}
+
+        \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{SteelBlue4}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{left}\PYGdefault{p}{,} \PYGdefault{n}{pos}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{bark}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{4}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{8}\PYGdefault{n}{em}\PYGdefault{p}{);}
+        \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{Red3}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{below}\PYGdefault{p}{,} \PYGdefault{n}{pos}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{run}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{8}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{4}\PYGdefault{n}{em}\PYGdefault{p}{);}
+        \PYGdefaultZbs{}\PYGdefault{n}{draw}\PYGdefault{p}{[}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{p}{,}\PYGdefault{n}{Purple}\PYGdefault{p}{]} \PYGdefault{p}{(}\PYGdefault{n}{start}\PYGdefault{o}{.}\PYGdefault{n}{center}\PYGdefault{p}{)} \PYGdefault{n}{to} \PYGdefault{n}{node} \PYGdefault{p}{[}\PYGdefault{n}{right}\PYGdefault{p}{,} \PYGdefault{n}{pos}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefault{p}{]} \PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{text}\PYGdefault{p}{\PYGdefaultZcb{}} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{5}\PYGdefault{n}{em}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{7}\PYGdefault{n}{em}\PYGdefault{p}{);}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{tikzpicture}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exampleblock}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Is} \PYGdefault{n}{that} \PYGdefault{n}{Realistic}\PYGdefault{err}{?}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Possible} \PYGdefault{n}{Concerns}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Is} \PYGdefault{n}{word} \PYGdefault{n}{meaning} \PYGdefault{n}{really} \PYGdefault{n}{just} \PYGdefault{n}{a} \PYGdefault{n}{bunch} \PYGdefault{n}{of} \PYGdefault{n}{numbers}\PYGdefault{err}{?}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{In} \PYGdefault{n}{a} \PYGdefault{n}{real}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{word} \PYGdefault{n}{model}\PYGdefault{p}{,} \PYGdefault{n}{the} \PYGdefault{n}{vector} \PYGdefault{n}{space} \PYGdefault{n}{will} \PYGdefault{n}{have}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{thousands} \PYGdefault{n}{of} \PYGdefault{n}{dimensions}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{But} \PYGdefault{n}{this} \PYGdefault{n}{might} \PYGdefault{n}{actually} \PYGdefault{n}{be} \PYGdefault{n}{what} \PYGdefault{n}{you} \PYGdefault{n}{have} \PYGdefault{n}{stored} \PYGdefault{o+ow}{in} \PYGdefault{n}{your} \PYGdefault{n}{brain}\PYGdefault{err}{!}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Psycholinguistic} \PYGdefault{n}{Experiment}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Word} \PYGdefault{n}{association} \PYGdefault{n}{task}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{The} \PYGdefault{n}{more} \PYGdefault{n}{similar} \PYGdefault{n}{the} \PYGdefault{n}{meaning} \PYGdefault{n}{vectors} \PYGdefault{n}{of} \PYGdefault{n}{two} \PYGdefault{n}{words}\PYGdefault{p}{,}\PYGdefaultZbs{}\PYGdefaultZbs{}
+            \PYGdefault{n}{the} \PYGdefault{n}{faster} \PYGdefault{n}{test} \PYGdefault{n}{subjects} \PYGdefault{n}{recognize} \PYGdefault{n}{them} \PYGdefault{k}{as} \PYGdefault{n}{related}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Usage} \PYGdefault{k}{for} \PYGdefault{n}{Web} \PYGdefault{n}{Search} \PYGdefault{o+ow}{and} \PYGdefault{n}{Ad} \PYGdefault{n}{Sense}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Web} \PYGdefault{n}{Search}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{construct} \PYGdefault{n}{meaning} \PYGdefault{n}{vector} \PYGdefault{k}{for} \PYGdefault{n}{every} \PYGdefault{n}{website}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{convert} \PYGdefault{n}{search} \PYGdefault{n}{string} \PYGdefault{n}{to} \PYGdefault{n}{vector}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{rank} \PYGdefault{n}{websites} \PYGdefault{n}{by} \PYGdefault{n}{vector} \PYGdefault{n}{similarity}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Ad} \PYGdefault{n}{Sense}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{construct} \PYGdefault{n}{meaning} \PYGdefault{n}{vector} \PYGdefault{k}{for} \PYGdefault{n}{every} \PYGdefault{n}{website}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{associate} \PYGdefault{n}{every} \PYGdefault{n}{ad} \PYGdefault{k}{with} \PYGdefault{n}{a} \PYGdefault{n}{vector}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{pick} \PYGdefault{n}{ad} \PYGdefault{n}{that} \PYGdefault{n}{most} \PYGdefault{n}{closely} \PYGdefault{n}{matches} \PYGdefault{n}{website} \PYGdefault{n}{vector}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Bells} \PYGdefault{o+ow}{and} \PYGdefault{n}{Whistles}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{weigh} \PYGdefault{n}{words} \PYGdefault{o+ow}{in} \PYGdefault{n}{search} \PYGdefault{n}{string} \PYGdefault{n}{by} \PYGdefault{n}{linear} \PYGdefault{n}{order}\PYGdefaultZbs{}\PYGdefaultZbs{}
+            \PYGdefaultZbs{}\PYGdefault{n}{subpoint}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{aliens} \PYGdefault{n}{conspiracy} \PYGdefault{err}{\PYGdefaultZdl{}}\PYGdefaultZbs{}\PYGdefault{n}{neq}\PYGdefault{err}{\PYGdefaultZdl{}} \PYGdefault{n}{conspiracy} \PYGdefault{n}{aliens}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{prioritize} \PYGdefault{n}{certain} \PYGdefault{n}{words} \PYGdefault{o+ow}{in} \PYGdefault{n}{text}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{compress} \PYGdefault{n}{vector} \PYGdefault{n}{space} \PYGdefault{k}{for} \PYGdefault{n}{efficiency}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Evaluation}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{For} \PYGdefault{n}{word} \PYGdefault{n}{meaning}\PYGdefault{p}{,} \PYGdefault{n}{the} \PYGdefault{n}{approach} \PYGdefault{n}{seems} \PYGdefault{n}{to} \PYGdefault{n}{work}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{But} \PYGdefault{n}{it} \PYGdefault{o+ow}{is} \PYGdefault{n}{bad} \PYGdefault{k}{for} \PYGdefault{n}{sentence}\PYGdefault{o}{/}\PYGdefault{n}{text} \PYGdefault{n}{meaning}\PYGdefault{o}{.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{example}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefault{n}{The} \PYGdefault{n}{following} \PYGdefault{n}{two} \PYGdefault{n}{sentences} \PYGdefault{n}{receive} \PYGdefault{n}{the} \PYGdefault{n}{same} \PYGdefault{n}{vector}\PYGdefault{p}{:}
+    \PYGdefault{o}{\PYGdefaultZpc{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exe}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{ex}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{xlist}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{ex} \PYGdefault{n}{Dog} \PYGdefault{n}{bites} \PYGdefault{n}{man}\PYGdefault{err}{!}
+            \PYGdefaultZbs{}\PYGdefault{n}{ex} \PYGdefault{n}{Man} \PYGdefault{n}{bites} \PYGdefault{n}{dog}\PYGdefault{err}{!}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{xlist}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{exe}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{example}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{followup}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefault{n}{How} \PYGdefault{n}{meaning} \PYGdefault{n}{actually} \PYGdefault{n}{works}\PYGdefault{p}{:} \PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{LIN} \PYGdefault{l+m+mi}{346} \PYGdefault{n}{Language} \PYGdefault{o+ow}{and} \PYGdefault{n}{Meaning}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{followup}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{An} \PYGdefault{n}{Observation} \PYGdefault{n}{on} \PYGdefault{n}{Frequencies}\PYGdefault{p}{:} \PYGdefault{n}{Zipf}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Law\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{5}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Word} \PYGdefault{n}{models} \PYGdefault{n}{care} \PYGdefault{n}{about} \PYGdefault{n}{word} \PYGdefault{n}{frequency}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{But} \PYGdefault{n}{there} \PYGdefault{o+ow}{is} \PYGdefault{n}{a} \PYGdefault{n}{problem}\PYGdefaultZbs{}\PYGdefault{n}{ldots}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefault{o}{\PYGdefaultZpc{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{alertblock}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Zipf}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Law\PYGdefaultZcb{}}
+        \PYGdefault{n}{The} \PYGdefault{n}{frequency} \PYGdefault{n}{of} \PYGdefault{n}{a} \PYGdefault{n+nb}{type} \PYGdefault{o+ow}{is} \PYGdefault{n}{inversely} \PYGdefault{n}{proportional} \PYGdefault{n}{to} \PYGdefault{n}{its} \PYGdefault{n}{rank}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{alertblock}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+    \PYGdefaultZbs{}\PYGdefault{n}{column}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o}{.}\PYGdefault{l+m+mi}{38}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{8}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{george\PYGdefaultZus{}zipf}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{columns}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{pause}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{In} \PYGdefault{n}{Plain} \PYGdefault{n}{English}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefault{n}{The} \PYGdefault{n}{most} \PYGdefault{n}{frequent} \PYGdefault{n}{word} \PYGdefault{o+ow}{is}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{colored}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{blue}\PYGdefault{err}{!}\PYGdefault{l+m+mi}{75}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}} \PYGdefault{n}{times} \PYGdefault{k}{as} \PYGdefault{n}{common} \PYGdefault{k}{as} \PYGdefault{n}{the} \PYGdefaultZbs{}\PYGdefault{n}{colored}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{blue}\PYGdefault{err}{!}\PYGdefault{l+m+mi}{75}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}\PYGdefault{n}{nd} \PYGdefault{n}{most} \PYGdefault{n}{frequent} \PYGdefault{n}{word}\PYGdefault{p}{,}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefaultZbs{}\PYGdefault{n}{colored}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{orange}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{3}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}} \PYGdefault{n}{times} \PYGdefault{k}{as} \PYGdefault{n}{common} \PYGdefault{k}{as} \PYGdefault{n}{the} \PYGdefaultZbs{}\PYGdefault{n}{colored}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{orange}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{l+m+mi}{3}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}\PYGdefault{n}{rd} \PYGdefault{n}{most} \PYGdefault{n}{frequent} \PYGdefault{n}{word}\PYGdefault{p}{,}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{o+ow}{and} \PYGdefault{n}{so} \PYGdefault{n}{on}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{An} \PYGdefault{n}{Example} \PYGdefault{n}{from}\PYGdefaultZbs{}\PYGdefault{n}{ldots} \PYGdefault{n}{the} \PYGdefault{n}{NBA}\PYGdefault{err}{?}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{zipfgraph\PYGdefaultZus{}nba}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Visualizing} \PYGdefault{n}{Zipf} \PYGdefault{n}{Distributions}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{centering}
+\PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{8}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{zipfgraph\PYGdefaultZus{}dinosaur}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Zipf}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Law is Everywhere\PYGdefaultZbs{}ldots\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{A} \PYGdefault{n}{distribution} \PYGdefault{o+ow}{is} \PYGdefault{n}{probably} \PYGdefault{n}{Zipfian} \PYGdefault{k}{if}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{there} \PYGdefault{o+ow}{is} \PYGdefault{n}{a} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n+nb}{long} \PYGdefault{n}{neck}\PYGdefault{p}{\PYGdefaultZcb{}:}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{a} \PYGdefault{n}{few} \PYGdefault{n}{types} \PYGdefault{n}{make} \PYGdefault{n}{up} \PYGdefault{n}{the} \PYGdefault{n}{majority} \PYGdefault{n}{of} \PYGdefault{n}{tokens}\PYGdefault{p}{,}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{there} \PYGdefault{o+ow}{is} \PYGdefault{n}{a} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n+nb}{long} \PYGdefault{n}{tail}\PYGdefault{p}{\PYGdefaultZcb{}:}\PYGdefaultZbs{}\PYGdefaultZbs{}
+                \PYGdefault{n}{most} \PYGdefault{n}{types} \PYGdefault{n}{only} \PYGdefault{n}{have} \PYGdefault{l+m+mi}{1} \PYGdefault{n}{token} \PYGdefault{p}{(}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{hapax} \PYGdefault{n}{legomenon}\PYGdefault{p}{\PYGdefaultZcb{})}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Surprisingly}\PYGdefault{p}{,} \PYGdefault{n}{Zipf}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Law shows up in tons of places:}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{size} \PYGdefault{n}{of} \PYGdefault{n}{large} \PYGdefault{n}{cities} \PYGdefault{o+ow}{in} \PYGdefault{n}{a} \PYGdefault{n}{country}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{citations} \PYGdefault{k}{for} \PYGdefault{n}{academic} \PYGdefault{n}{papers}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{frequencies} \PYGdefault{n}{of} \PYGdefault{n}{last} \PYGdefault{n}{names}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{frequencies} \PYGdefault{n}{of} \PYGdefault{n}{weekdays} \PYGdefault{o+ow}{in} \PYGdefault{n}{text}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{ldots} \PYGdefault{n}{Even} \PYGdefault{o+ow}{in} \PYGdefault{n}{Language}\PYGdefault{err}{!}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{includegraphics}\PYGdefault{p}{[}\PYGdefault{n}{width}\PYGdefault{o}{=.}\PYGdefault{l+m+mi}{9}\PYGdefaultZbs{}\PYGdefault{n}{linewidth}\PYGdefault{p}{]\PYGdefaultZob{}}\PYGdefault{o}{./}\PYGdefault{n}{img}\PYGdefault{o}{/}\PYGdefault{n}{zipfgraph\PYGdefaultZus{}english}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Stop} \PYGdefault{n}{Words}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{About} \PYGdefault{l+m+mi}{150} \PYGdefault{n}{words} \PYGdefault{n}{make} \PYGdefault{n}{up} \PYGdefault{l+m+mi}{50}\PYGdefaultZbs{}\PYGdefault{o}{\PYGdefaultZpc{}} \PYGdefault{n}{of} \PYGdefault{n+nb}{all} \PYGdefault{n}{English} \PYGdefault{n}{texts}\PYGdefault{p}{:}\PYGdefaultZbs{}\PYGdefaultZbs{}
+        \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{the}\PYGdefault{p}{\PYGdefaultZcb{},} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{of}\PYGdefault{p}{\PYGdefaultZcb{},} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{o+ow}{and}\PYGdefault{p}{\PYGdefaultZcb{},} \PYGdefaultZbs{}\PYGdefault{n}{emph}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{a}\PYGdefault{p}{\PYGdefaultZcb{},} \PYGdefaultZbs{}\PYGdefault{n}{ldots}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{These} \PYGdefault{n}{are} \PYGdefault{n}{called} \PYGdefaultZbs{}\PYGdefault{n}{highlight}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{stop} \PYGdefault{n}{words}\PYGdefault{p}{\PYGdefaultZcb{}}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Stop} \PYGdefault{n}{words} \PYGdefault{n}{are} \PYGdefault{o+ow}{not} \PYGdefault{n}{very} \PYGdefault{n}{informative} \PYGdefault{k}{for} \PYGdefault{n}{many} \PYGdefault{n}{applications}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{So} \PYGdefault{n}{they} \PYGdefault{n}{are} \PYGdefault{n}{usually} \PYGdefault{n}{discarded} \PYGdefault{n}{after} \PYGdefault{n}{the} \PYGdefault{n}{tokenization} \PYGdefault{n}{step}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Failure} \PYGdefault{n}{to} \PYGdefault{n}{do} \PYGdefault{n}{so} \PYGdefault{n}{can} \PYGdefault{n}{greatly} \PYGdefault{n+nb}{reduce} \PYGdefault{n}{the} \PYGdefault{n}{model}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s performance.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{pause}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Steps} \PYGdefault{n}{of} \PYGdefault{n}{Word} \PYGdefault{n}{Counting} \PYGdefault{n}{Model} \PYGdefault{p}{(}\PYGdefault{n}{Revised}\PYGdefault{p}{)\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n+nb}{enumerate}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{collect} \PYGdefault{n}{corpus}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{remove} \PYGdefault{n}{stop} \PYGdefault{n}{words}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{tokenize} \PYGdefault{n}{strings}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{count} \PYGdefault{n}{tokens} \PYGdefault{k}{for} \PYGdefault{n}{each} \PYGdefault{n+nb}{type}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n+nb}{enumerate}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Example}\PYGdefault{p}{:} \PYGdefault{n}{A} \PYGdefault{n}{Text} \PYGdefault{n}{Without} \PYGdefault{p}{(}\PYGdefault{n}{Non}\PYGdefault{p}{)}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{Stop} \PYGdefault{n}{Words}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Stop} \PYGdefault{n}{words} \PYGdefault{n}{are} \PYGdefault{n}{much} \PYGdefault{n}{less} \PYGdefault{n}{informative} \PYGdefault{n}{than} \PYGdefault{n}{non}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{stop} \PYGdefault{n}{words}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Just} \PYGdefault{n}{check} \PYGdefault{n}{the} \PYGdefault{n}{example} \PYGdefault{n}{below}\PYGdefault{o}{.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{only}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{1}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Stop} \PYGdefault{n}{Words} \PYGdefault{n}{only}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{only}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Stop} \PYGdefault{n}{Words} \PYGdefault{o+ow}{and} \PYGdefault{n}{Non}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{Stop} \PYGdefault{n}{Words}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{only}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefaultZbs{}\PYGdefault{n}{textbf}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{Non}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{Stop} \PYGdefault{n}{Words} \PYGdefault{n}{only}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZcb{}}\PYGdefault{o}{\PYGdefaultZpc{}}
+
+\PYGdefaultZbs{}\PYGdefault{n}{bigskip}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{The}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{sun}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{shone}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{having}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{no}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{alternative}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{on}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{the}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{nothing}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{,}\PYGdefault{l+m+mi}{3}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{new}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{An} \PYGdefault{n}{Important} \PYGdefault{n}{Consequence} \PYGdefault{n}{of} \PYGdefault{n}{Zipf}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}s Law\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Texts} \PYGdefault{n}{mostly} \PYGdefault{n}{consist} \PYGdefault{n}{of} \PYGdefault{n}{stop} \PYGdefault{n}{words}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Hence} \PYGdefault{n}{it} \PYGdefault{n}{can} \PYGdefault{n}{be} \PYGdefault{n}{difficult} \PYGdefault{n}{to} \PYGdefault{n}{get} \PYGdefault{n}{representative} \PYGdefault{n}{counts}\PYGdefaultZbs{}\PYGdefaultZbs{}
+        \PYGdefault{k}{for} \PYGdefault{n}{non}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{stop} \PYGdefault{n}{words}\PYGdefault{o}{.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Sparse} \PYGdefault{n}{Data} \PYGdefault{n}{Problem}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Most} \PYGdefault{n}{of} \PYGdefault{n}{the} \PYGdefault{n}{data} \PYGdefault{o+ow}{is} \PYGdefault{o+ow}{not} \PYGdefault{n}{informative}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{You} \PYGdefault{n}{need} \PYGdefault{n}{tons} \PYGdefault{n}{of} \PYGdefault{n}{data} \PYGdefault{n}{to} \PYGdefault{n}{have} \PYGdefault{n}{enough} \PYGdefault{n}{useful} \PYGdefault{n}{data}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{block}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{o}{\PYGdefaultZpc{}}
+\PYGdefaultZbs{}\PYGdefault{n}{visible}\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{l+m+mi}{2}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{p}{\PYGdefaultZob{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{example}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Most} \PYGdefault{n}{models} \PYGdefault{n}{require} \PYGdefault{n}{corpora} \PYGdefault{k}{with} \PYGdefault{n}{at} \PYGdefault{n}{least}\PYGdefaultZbs{}\PYGdefaultZbs{}
+            \PYGdefault{n}{a} \PYGdefault{n}{few} \PYGdefault{n}{million} \PYGdefault{n}{sentences}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Really} \PYGdefault{n}{good} \PYGdefault{n}{models} \PYGdefault{p}{(}\PYGdefault{n}{e}\PYGdefault{o}{.}\PYGdefault{n}{g}\PYGdefault{o}{.} \PYGdefault{n}{Google} \PYGdefault{n}{translate}\PYGdefault{p}{)} \PYGdefault{n}{use}\PYGdefaultZbs{}\PYGdefaultZbs{}
+            \PYGdefault{n}{billions} \PYGdefault{n}{of} \PYGdefault{n}{data} \PYGdefault{n}{points}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{example}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{in}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{n}{Summary}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Unigram} \PYGdefault{p}{(}\PYGdefault{o}{=} \PYGdefault{n}{word}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{based}\PYGdefault{p}{)} \PYGdefault{n}{models} \PYGdefault{n}{are} \PYGdefault{n}{surprisingly} \PYGdefault{n}{useful}\PYGdefault{o}{.}
+        \PYGdefaultZbs{}\PYGdefault{n}{begin}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{culturomics}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{stylistic} \PYGdefault{n}{analysis}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{authorship} \PYGdefault{n}{attribution}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{word} \PYGdefault{n}{meaning}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{web} \PYGdefault{n}{search}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{ad} \PYGdefault{n}{sense}
+            \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{o+ow}{and} \PYGdefault{n}{much} \PYGdefault{n}{more}
+        \PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{They} \PYGdefault{n}{just} \PYGdefault{n}{count} \PYGdefault{n}{words} \PYGdefault{o+ow}{and} \PYGdefault{n}{do} \PYGdefault{n}{some} \PYGdefault{n}{number} \PYGdefault{n}{crunching} \PYGdefault{k}{with} \PYGdefault{n}{the} \PYGdefault{n}{frequencies}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{These} \PYGdefault{n}{models} \PYGdefault{n}{are} \PYGdefault{n}{everywhere}\PYGdefault{p}{,} \PYGdefault{n}{but} \PYGdefault{n}{they} \PYGdefault{n}{are} \PYGdefault{n}{also} \PYGdefault{n}{very} \PYGdefault{n}{simplistic}\PYGdefault{o}{.}
+    \PYGdefaultZbs{}\PYGdefault{n}{item} \PYGdefault{n}{Quality} \PYGdefault{n}{depends} \PYGdefault{n}{largely} \PYGdefault{n}{on} \PYGdefault{n}{how} \PYGdefault{n}{much} \PYGdefault{n}{data} \PYGdefault{o+ow}{is} \PYGdefault{n}{available}\PYGdefault{o}{.}
+\PYGdefaultZbs{}\PYGdefault{n}{end}\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{itemize}\PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{frame}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{p}{\PYGdefaultZob{}}\PYGdefault{n}{document}\PYGdefault{p}{\PYGdefaultZcb{}}
+
+\PYGdefault{n}{am} \PYGdefault{n}{models}
+\PYGdefault{n}{word} \PYGdefault{n}{prediction}
+\PYGdefault{n}{where} \PYGdefault{n}{it} \PYGdefault{n}{would} \PYGdefault{n}{help}\PYGdefault{p}{:} \PYGdefault{n}{ocr}
+\end{Verbatim}

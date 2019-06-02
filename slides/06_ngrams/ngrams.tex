@@ -6,9 +6,9 @@
 
 
 \title{\texorpdfstring{Language \& Technology}{Language and Technology}}
-\subtitle{Lecture 6: From Unigrams to n-Grams}
-\author{Thomas Graf}
-\institute{Stony Brook University\\\texttt{lin120@thomasgraf.net}}
+\subtitle{Lecture 7: From Unigrams to n-Grams}
+\author{Al{\"e}na Aks{\"e}nova \& Aniello De Santo}
+\institute{Stony Brook University\\\texttt{alena.aksenova@stonybrook.edu}\\\texttt{aniello.desanto@stonybrook.edu}}
 \date{}
 
 
@@ -16,42 +16,45 @@
 \begin{document}
 \begin{frame}{Plan for Remaining 5 Weeks}
     \centering
-    \begin{tabular}{rl}
+    \begin{tabular}{rll}
         \toprule
-        \textbf{Date} & \textbf{Topic}\\
+        \textbf{Date} & \textbf{Topic} & \textbf{Hw?}\\
         \midrule
-        Nov 6  & n-gram models\\
-        Nov 8  & Python\\
+       April  8  & n-gram models & yes\\
+       April  10  & Python (functions) \\
         \midrule
-        Nov 13 & Deep learning and neural networks\\
-        Nov 15 & Python\\
+        April  15 &  n-gram models (cont.) & yes\\
+       April  17 & Python (tokens) \\
         \midrule
-        Nov 20 & What a human-like model would look like\\
-        Nov 22 & \highlight{No class}\\
+       April 22 & Machine learning &yes \\
+        April  24 & Python (ngrams)\\
         \midrule
-        Nov 27 & Impact on society\\
-        Nov 29 & Final Python class\\
+       April  29 &  Human-like models  & practice /Final project  \\
+       May 01 & Python (frequencies)\\
         \midrule
-        Dec 4 & Summary\\
-        Dec 6 & Q\&A session\\
+        May 06 & Summary & Final project  \\
+        May 08 & Python Q\&A session\\
+            \midrule
+        May 14 & & Final Project due (at midnight)\\
+        
         \bottomrule
     \end{tabular}
 \end{frame}
 
-\begin{frame}{Learning More}
-    Related courses in the spring:
-
-    \begin{itemize}
-        \item \textbf{Syntax (LIN 311)}\\
-            Prerequisite: Lin 101
-        \item \textbf{Parsing and Processing (Lin 630)}\\
-            Graduate level!\\
-            Prerequisite: Lin 311, having done well in this course
-        \item \textbf{Revising my MathMethods Lecture Notes}\\
-            Prerequisite: reliability and independence\\
-            SBC: EXP+
-    \end{itemize}
-\end{frame}
+%\begin{frame}{Learning More}
+%    Related courses in the spring:
+%
+%    \begin{itemize}
+%        \item \textbf{Syntax (LIN 311)}\\
+%            Prerequisite: Lin 101
+%        \item \textbf{Parsing and Processing (Lin 630)}\\
+%            Graduate level!\\
+%            Prerequisite: Lin 311, having done well in this course
+%        \item \textbf{Revising my MathMethods Lecture Notes}\\
+%            Prerequisite: reliability and independence\\
+%            SBC: EXP+
+%    \end{itemize}
+%\end{frame}
 }
 
 \unnumbered{
@@ -59,6 +62,8 @@
 	\titlepage
 \end{frame}
 }
+
+
 
 \begin{frame}{Generalizing Unigrams}
     \begin{itemize}
@@ -124,7 +129,7 @@
     \]
 \end{frame}
 
-\begin{frame}{This is a Workable Solutin for Word Completion}
+\begin{frame}{This is a Workable Solution for Word Completion}
     \begin{description}
         \item[word completion] completing a partially typed word
     \end{description}
@@ -301,6 +306,15 @@
     \end{example}
 \end{frame}
 
+\begin{frame}{Choosing the right $n$ is Important}
+
+An example from Grammarly ... 
+\begin{center}
+  \includegraphics[width=.9\linewidth]{./img/grammarly}
+  \end{center}
+\end{frame}
+
+
 \begin{frame}{Zipf's Law Strikes Again}
     \begin{itemize}
         \item As with words, n-grams have a Zipfian distribution.
@@ -309,7 +323,7 @@
 
     \begin{block}{The Overwhelming Number of $n$-Grams}
         \begin{itemize}
-            \item Suppose English has 5,000 words (it acutally has way more)
+            \item Suppose English has 5,000 words (it actually has way more)
             \item Suppose each word has two inflected forms\\
                 \subpoint{\textbf{see the picture} and \textbf{see the pictures} are distinct trigrams!}
             \item Then there are $10,000^n = 10^{4n}$ distinct $n$-grams.

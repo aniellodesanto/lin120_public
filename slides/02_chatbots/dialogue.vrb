@@ -1,0 +1,19 @@
+\frametitle{Analyzing ELIZA}
+\begin{itemize}
+        \item ELIZA uses pattern matching.
+        \item Specific constructions provide specific responses.
+    \end{itemize}
+    %
+    \begin{example}
+\begin{pythoncode}
+    if 'you' in user_input:
+        print('We were discussing you, not me.')
+    if 'feel' in user_input:
+        print('Tell me more about such feelings.')
+\end{pythoncode}
+    \end{example}
+    %
+    \begin{itemize}
+        \item Responses can reuse user input with \textbf{regular expressions}\\
+              (more on that in a later lecture)
+    \end{itemize}

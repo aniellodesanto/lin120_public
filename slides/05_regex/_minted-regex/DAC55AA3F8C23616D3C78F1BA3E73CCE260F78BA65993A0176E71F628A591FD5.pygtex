@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{c+c1}{\PYGdefaultZsh{} define some alphabet}
+\PYGdefault{n}{alphabet} \PYGdefault{o}{=} \PYGdefault{p}{[}\PYGdefault{n}{a}\PYGdefault{p}{,} \PYGdefault{n}{b}\PYGdefault{p}{,} \PYGdefault{n}{c}\PYGdefault{p}{,} \PYGdefault{c+c1}{\PYGdefaultZsh{} and so on}
+
+\PYGdefault{c+c1}{\PYGdefaultZsh{} add a special symbol, e.g. ß, to the alphabet}
+\PYGdefault{c+c1}{\PYGdefaultZsh{} to separate distinct members of Sigma*}
+\PYGdefault{n+nb}{list}\PYGdefault{o}{.}\PYGdefault{n}{append}\PYGdefault{p}{(}\PYGdefault{n}{alphabet}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}ß\PYGdefaultZdq{}}\PYGdefault{p}{)}
+
+\PYGdefault{c+c1}{\PYGdefaultZsh{} then start generating indefinitely}
+\PYGdefault{k}{while} \PYGdefault{n+nb+bp}{True}\PYGdefault{p}{:}
+    \PYGdefault{k}{print}\PYGdefault{p}{(}\PYGdefault{n}{random}\PYGdefault{o}{.}\PYGdefault{n}{choice}\PYGdefault{p}{(}\PYGdefault{n}{alphabet}\PYGdefault{p}{),} \PYGdefault{n}{end}\PYGdefault{o}{=}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZdq{}}\PYGdefault{p}{)}
+\end{Verbatim}

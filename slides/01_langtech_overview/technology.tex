@@ -6,8 +6,8 @@
 
 \title{\texorpdfstring{Language \& Technology}{Language and Technology}}
 \subtitle{Lecture 1: What is Language Technology?}
-\author{Thomas Graf}
-\institute{Stony Brook University\\\texttt{lin120@thomasgraf.net}}
+\author{Al{\"e}na Aks{\"e}nova \& Aniello De Santo}
+\institute{Stony Brook University\\\texttt{alena.aksenova@stonybrook.edu}\\\texttt{aniello.desanto@stonybrook.edu}}
 \date{}
 
 
@@ -114,6 +114,7 @@
 \end{frame}
 
 \begin{frame}{Evaluation}
+\visible<2->{
     \begin{itemize}
         \item meaning of song largely lost, but individual lines mostly fine
         \item odd phrasing\\
@@ -129,6 +130,7 @@
 
     \highlight{Summary}\\
     surprisingly good, but still tons of mistakes for 225 word text
+    }
 \end{frame}
 
 \begin{frame}{Another Example}
@@ -202,12 +204,13 @@
         \begin{tabular}{cccc}
             \includegraphics[height=8em]{./img/data} &
             \includegraphics[height=8em]{./img/c3po} &
-            \includegraphics[height=8em]{./img/hal9000} &
+           % \includegraphics[height=8em]{./img/hal9000} &
+              \includegraphics[height=8em]{./img/baymax} &
             \includegraphics[height=8em]{./img/terminator} \\
             \includegraphics[height=8em]{./img/robby} &
-            \includegraphics[height=8em]{./img/tachikoma} &
-            \includegraphics[height=8em]{./img/brainiac} &
-            \includegraphics[height=8em]{./img/shodan}
+            \includegraphics[height=8em]{./img/bender.jpg} &
+            \includegraphics[height=8em]{./img/marvin} &
+            \includegraphics[height=8em]{./img/number6}
         \end{tabular}
     \end{center}
 \end{frame}
@@ -219,23 +222,23 @@
                 \href{run:portal2.mp4}{
                     \includegraphics[width=5em]{img/wheatley}}%
                 };
-            \node (perfect-text) [right=2em of perfect] {completely human};
+          \visible<3->{  \node (perfect-text) [right=2em of perfect] {completely human};}
         \end{scope}
 
-        \begin{scope}[visible on=<3->]
+        \begin{scope}[visible on=<4->]
             \node (good) [below=1em of perfect] {%
                 \href{run:robby.avi}{
                     \includegraphics[width=5em]{img/robby_cropped}}%
                 };
-            \node (good-text) [right=2em of good] {perfect but weird voice};
+                 \visible<5->{ \node (good-text) [right=2em of good] {perfect but weird voice};}
         \end{scope}
 
-        \begin{scope}[visible on=<4->]
+        \begin{scope}[visible on=<6->]
             \node (arnold) [below=1em of good] {%
                 \href{run:hercules.mp4}{
                     \includegraphics[width=5em]{img/terminator}}%
                 };
-            \node (arnold-text) [right=2em of arnold] {Arnold};
+              \visible<7->{    \node (arnold-text) [right=2em of arnold] {Arnold};}
         \end{scope}
 
         \draw[->,red,very thick] (perfect.north west) -- (arnold.south west);
@@ -296,6 +299,7 @@
         \end{xlist}
     \end{exe}
 
+\pause
     \begin{block}{Hypothesis}
         In sentences of the form \emph{subject met}, the subject must be plural.
     \end{block}
@@ -310,6 +314,7 @@
         \end{xlist}
     \end{exe}
 
+    \pause
     \begin{block}{Revised Hypothesis}
         In sentences of the form \emph{subject met}, the subject must refer to\\
         multiple individuals\slash objects.
@@ -325,7 +330,7 @@
             \ex[??] {The board has four wheels and met for the first time yesterday.}
         \end{xlist}
     \end{exe}
-
+    \pause
     \begin{block}{Need for World Knowledge}
         A board with four wheels is a skateboard, not a committee\\
         $\Rightarrow$ \emph{board} does not refer to multiple individuals here
@@ -337,6 +342,7 @@
         \ex[]{The board met yesterday even though it only has one member right now.}
     \end{exe}
     %
+        \pause
     \begin{block}{Not All World Knowledge Matters}
         The committee has only one member and \emph{board} thus does not refer to multiple individuals.
         But the sentence is still fine.
@@ -368,6 +374,7 @@
     \begin{block}<4>{The Puzzle}
         \begin{itemize}
             \item Why can a sentence have two interpretations?
+             \item Why is one interpretation preferred?
             \item Why does the word \emph{who} forbid the second interpretation?
         \end{itemize}
     \end{block}
@@ -459,7 +466,7 @@
         \column{.4\linewidth}
             \visible<5>{
                 \hspace{2em}
-                \includegraphics[width=5em]{./img/firestorm}\\
+                \includegraphics[width=5em]{./img/firestorm.jpg}\\
                 \textbf{\footnotesize Firestorm, nuclear physicist}
             }
     \end{columns}
@@ -531,13 +538,15 @@
         \small
         \ex
         \begin{xlist}
-            \ex The horse\only<2->{\highlight{ that was}} raced past the barn fell.
-            \ex The cotton\only<3->{\highlight{ that}} clothing is made of grows in Mississippi.
-            \ex Until the police arrest\only<4->{\highlight{,}} the drug dealers control the street.
+            \ex The horse\only<4->{\highlight{ that was}} raced past the barn fell.
+            \pause
+            \ex The cotton\only<5->{\highlight{ that}} clothing is made of grows in Mississippi.
+            \pause
+            \ex Until the police arrest\only<6->{\highlight{,}} the drug dealers control the street.
         \end{xlist}
     \end{exe}
     %
-    \uncover<5->{
+    \uncover<7->{
     Another case is \textbf{center embedding} being harder than\\
     \textbf{right embedding}.
     %

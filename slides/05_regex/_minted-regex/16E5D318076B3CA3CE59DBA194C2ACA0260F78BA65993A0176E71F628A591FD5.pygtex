@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{n}{re}\PYGdefault{o}{.}\PYGdefault{n}{sub}\PYGdefault{p}{(}\PYGdefault{l+s+sa}{r}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}\PYGdefaultZca{}.*?id=\PYGdefaultZdq{}(\PYGdefaultZbs{}w+)\PYGdefaultZdq{}.*?\PYGdefaultZlt{}h3\PYGdefaultZgt{}.*?:\PYGdefaultZbs{}s*(.*?)\PYGdefaultZlt{}/h3\PYGdefaultZgt{}.*?\PYGdefaultZlt{}p\PYGdefaultZgt{}(.*?)\PYGdefaultZlt{}/p\PYGdefaultZgt{}(.*)\PYGdefaultZsq{}}\PYGdefault{p}{,}
+       \PYGdefault{l+s+sa}{r}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZbs{}1|\PYGdefaultZbs{}2|\PYGdefaultZbs{}3|\PYGdefaultZbs{}4\PYGdefaultZdq{}}\PYGdefault{p}{,}
+       \PYGdefault{n}{course\PYGdefaultZus{}description}\PYGdefault{p}{)}
+\end{Verbatim}

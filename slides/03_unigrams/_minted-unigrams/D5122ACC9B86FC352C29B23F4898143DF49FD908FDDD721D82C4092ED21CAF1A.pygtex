@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{n}{string} \PYGdefault{o}{=} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}The sun shone, having no alternative, on the nothing new.\PYGdefaultZdq{}}
+\PYGdefault{n}{tokens} \PYGdefault{o}{=} \PYGdefault{n}{re}\PYGdefault{o}{.}\PYGdefault{n}{findall}\PYGdefault{p}{(}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZbs{}w+\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{n+nb}{str}\PYGdefault{o}{.}\PYGdefault{n}{lower}\PYGdefault{p}{(}\PYGdefault{n}{string}\PYGdefault{p}{))}
+\PYGdefault{k}{print}\PYGdefault{p}{(}\PYGdefault{n}{tokens}\PYGdefault{p}{)}
+\PYGdefault{o}{\PYGdefaultZgt{}\PYGdefaultZgt{}\PYGdefaultZgt{}} \PYGdefault{p}{[}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}the\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}sun\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}shone\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}having\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}no\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}alternative\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}on\PYGdefaultZdq{}}\PYGdefault{p}{,}
+     \PYGdefault{l+s+s2}{\PYGdefaultZdq{}the\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}nothing\PYGdefaultZdq{}}\PYGdefault{p}{,} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}new\PYGdefaultZdq{}}\PYGdefault{p}{]}
+\end{Verbatim}

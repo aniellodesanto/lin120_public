@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{k}{if} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}you\PYGdefaultZsq{}} \PYGdefault{o+ow}{in} \PYGdefault{n}{user\PYGdefaultZus{}input}\PYGdefault{p}{:}
+    \PYGdefault{k}{print}\PYGdefault{p}{(}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}We were discussing you, not me.\PYGdefaultZsq{}}\PYGdefault{p}{)}
+\PYGdefault{k}{if} \PYGdefault{l+s+s1}{\PYGdefaultZsq{}feel\PYGdefaultZsq{}} \PYGdefault{o+ow}{in} \PYGdefault{n}{user\PYGdefaultZus{}input}\PYGdefault{p}{:}
+    \PYGdefault{k}{print}\PYGdefault{p}{(}\PYGdefault{l+s+s1}{\PYGdefaultZsq{}Tell me more about such feelings.\PYGdefaultZsq{}}\PYGdefault{p}{)}
+\end{Verbatim}

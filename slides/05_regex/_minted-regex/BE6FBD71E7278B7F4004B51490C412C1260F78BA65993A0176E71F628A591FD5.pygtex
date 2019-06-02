@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{c+c1}{\PYGdefaultZsh{} convert dates from month/day/full\PYGdefaultZus{}year to full\PYGdefaultZus{}year\PYGdefaultZhy{}month\PYGdefaultZhy{}day}
+\PYGdefault{n}{re}\PYGdefault{o}{.}\PYGdefault{n}{sub}\PYGdefault{p}{(}\PYGdefault{l+s+sa}{r}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}(\PYGdefaultZbs{}w+)/(\PYGdefaultZbs{}d\PYGdefaultZob{},2\PYGdefaultZcb{})/(\PYGdefaultZbs{}d\PYGdefaultZob{}4\PYGdefaultZcb{})\PYGdefaultZdq{}}\PYGdefault{p}{,}
+       \PYGdefault{l+s+sa}{r}\PYGdefault{l+s+s2}{\PYGdefaultZdq{}\PYGdefaultZbs{}3\PYGdefaultZhy{}\PYGdefaultZbs{}1\PYGdefaultZhy{}\PYGdefaultZbs{}2\PYGdefaultZdq{}}\PYGdefault{p}{,}
+       \PYGdefault{n}{string}\PYGdefault{p}{)}
+\end{Verbatim}
